@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Poppins:wght@400;500;600;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Poppins:wght@400;500;600;700&family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: #fff;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.Brand img{
+    width:44px;
+    padding: 0 8px;
+}
+.Brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: #111;
+    color: white;
+    font-family:'Varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    background-image: url('fahad1.png');
+    background-size:cover;
+    border-radius: 12px;
+    padding: 34px;
+}
+.songItem{  
+height: 50px;
+display: flex;
+background-color: white;
+/* width:80%; */
+color: black;
+margin: 12px 0;
+border-radius: 34px;
+justify-content: space-between;
+align-items: center;
+}
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 34px;
+    
+
+}
+.songitemcontainer{
+    margin-top: 70px;
+}
+.songlist{
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin: 14px ;
+}
+.icons{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 9.5vw;
+    /* margin-left: 30px; */
+    font-family:'Varela Round',sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity .4s ease-in;
+}
